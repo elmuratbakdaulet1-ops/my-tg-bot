@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 # Токен берём из переменной окружения (безопасно)
-TOKEN = os.getenv("8875610425:AAGylX-48pNYa477jOZ2DiKvl-b82LV3xdY")
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
